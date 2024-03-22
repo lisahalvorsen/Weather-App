@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    font-family: arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#input-container {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 50px;
+}
+
+.city-input {
+    margin-right: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.city-input:focus {
+    outline: none;
+}
+
+#weather-icon {
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#weather-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid orange;
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+    margin-top: 50px;
+    background-color: bisque;
+}
+
+#city-name {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#description {
+    font-style: italic;
+}
+
+#weather-emoji {
+    font-size: 60px;
+}
